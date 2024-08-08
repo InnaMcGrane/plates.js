@@ -1,0 +1,65 @@
+.plates {
+  max-width: 300px;
+  background-color: #4530b2;
+  padding: 15px;
+}
+
+.plates__counter {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.plates__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.plate {
+  width: calc(100% / 2 - 5px);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #5450d6;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(226, 226, 226);
+}
+
+.plate__counter {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.plate__btns {
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn--more {
+  background-color: rgb(228, 169, 61);
+  padding: 15px;
+}
+
+.btn--add {
+  background-color: rgb(52, 165, 52);
+  padding: 15px;
+}
+/* 
+
+ДЗ:
+more - оранжевая
+add - зеленая
+
+сделать их покрупнее (padding)
+
+_________________
+сделать два компонента на клаасах
+- plates -> _getTemp()
+- plate -> _getTemp()
+
+*/
